@@ -1,5 +1,5 @@
 {% set name = "kernel_driver" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c531f9c35e5a46a7308997487e08fda9056356b6f3eb4353a9ab94beec68301b
+  sha256: f7c58743b1df06066beaed038804a30bebb05587fc014a94fa382e7bfba748ca
 
 build:
   noarch: python
